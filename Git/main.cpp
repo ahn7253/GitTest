@@ -6,10 +6,16 @@ int add(int a, int b)
 }
 
 
+
 int minus(int a, int b) 
 {
 	return a - b;
 }
+void print(int a)
+{
+	printf("%d\n", a);
+}
+
 int main() 
 {
 	printf("Hello World\n");
